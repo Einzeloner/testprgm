@@ -137,7 +137,8 @@ while (fahr <= upper) {
 
 
 
-# 
+# On a side note you can also compile it via gcc which produces an executable instead of a.out.
+# the synatx would be [gcc -o name file.c] 
 
 
 
