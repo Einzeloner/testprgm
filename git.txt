@@ -17,6 +17,7 @@ git log = gives you a history of commits
 
 
 
+git checkout <hashname> = helps you go back to one desired log
 
 
 
