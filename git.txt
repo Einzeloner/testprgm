@@ -40,3 +40,8 @@ git remote add nameIguess <url> = initialises the github repo.
 
 
 git push -u nameIguess master = pushes all of the branch changes and code
+
+
+
+git pull origin master = syncs the rpogress made by other contributers to your machine.
+
