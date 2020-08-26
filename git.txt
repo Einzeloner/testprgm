@@ -1,0 +1,22 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+git init  = initalizes a repository in the specified folder.
+
+
+git status = displays status of the repo
+
+
+git add filename = adds the file to the staging area
+
+
+git commit -m "your message" = commits with a message
+
+
+git log = gives you a history of commits
+
+
+
+
+
+
