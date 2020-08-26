@@ -25,3 +25,8 @@ git branch <new branch name> = helps to create a new branch instead on the main 
 
 
 git checkout <branch name> =  puts you into that branch
+
+
+git merge <branchname> = merges the other branch with the master
+
+git branch = lists the branch that you're working with
