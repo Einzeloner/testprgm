@@ -30,3 +30,13 @@ git checkout <branch name> =  puts you into that branch
 git merge <branchname> = merges the other branch with the master
 
 git branch = lists the branch that you're working with
+
+
+
+					GITHUB BASICS
+
+
+git remote add nameIguess <url> = initialises the github repo.
+
+
+git push -u nameIguess master = pushes all of the branch changes and code
