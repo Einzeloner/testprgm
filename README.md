@@ -1,2 +1,5 @@
  # testprgm
-The repository for testing out random stuff that I do.
+
+
+
+ A repo for random stuff and testing commands with some text files.

@@ -65,8 +65,6 @@ for searching anything in vim goto the insert mode and then [/search] that thing
 
 				Saving and quitting vim
 
-[ZZ] will save and quit
-
 [:q] normal quit
 
 [:q!] force quit
