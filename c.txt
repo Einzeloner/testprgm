@@ -140,5 +140,21 @@ while (fahr <= upper) {
 # On a side note you can also compile it via gcc which produces an executable instead of a.out.
 # the synatx would be [gcc -o name file.c] 
 
+# [for (fahr = 0)] is the initialization of the loop meaning that it is done before entering the
+# loop.
+
+# [ (for fahr <= 300) ] is the second part of the loop which controls the loop if the
+# condition is met.
+
+# If the condition of the loop is met then the body of the loop executes and then the third
+# condition [ (fahr = fahr + 20)] is executed.
+
+# this systematic process [ Initialization > condition checking > re-evalutaion of condition ]
+# continues until the condition in the body of the loop becomes false.
+
+# The choice between "while" loop and "for" loop is completely personal. The "for" loop can be used 
+# if we want to have less variables or want all of the condition in one body, otherwise "while" is
+# a good option as well.
+
 
 
