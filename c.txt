@@ -166,6 +166,30 @@ while (fahr <= upper) {
 # They convey information about the program which might be useful for others.
 
 
+==> SYNTAX
+
+		#define name value
+
+==> FOR EG.
+		
+		#include <stdio.h>
+		
+		#define STEP 20 	/* step of the conversion loop */
+		#define LOWER 0  	/* Lower limit of the scale */
+		#define UPPER 300 	/* Upper limit of the conversion scale*/ 
+
+		int main(){
+			int far;
+			
+			for (far = LOWER; far <= UPPER; far = far + STEP)
+			printf("%3d %6d\n", far, (5.0/9.0)*(far - 32));
+		}
+
+
+
+
+			 	CHARACTER INPUT AND OUTPUT
+
 
 
 
