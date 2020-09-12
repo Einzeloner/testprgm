@@ -1,0 +1,47 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+git init  = initalizes a repository in the specified folder.
+
+
+git status = displays status of the repo
+
+
+git add filename = adds the file to the staging area
+
+
+git commit -m "your message" = commits with a message
+
+
+git log = gives you a history of commits
+
+
+
+git checkout <hashname> = helps you go back to one desired log
+
+
+
+git branch <new branch name> = helps to create a new branch instead on the main branch or timeline
+
+
+git checkout <branch name> =  puts you into that branch
+
+
+git merge <branchname> = merges the other branch with the master
+
+git branch = lists the branch that you're working with
+
+
+
+					GITHUB BASICS
+
+
+git remote add nameIguess <url> = initialises the github repo.
+
+
+git push -u nameIguess master = pushes all of the branch changes and code
+
+
+
+git pull origin master = syncs the rpogress made by other contributers to your machine.
+

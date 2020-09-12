@@ -1,0 +1,73 @@
+[i] will get of in or out of the insert mode
+
+[Esc] will get you out of insert mode or in 
+
+				Basics of moving
+
+      
+       k
+    h  j  l 	= as matched with wasd in insert mode
+
+
+[0] moves the cursor at the beginning of the line
+
+[$] moves the cursor at the end of the line
+
+[w] move forward one word 
+
+
+[b] move backwards one word
+
+[G] move to the end of the file
+
+[gg] move to the beginning of the file
+
+[`.] move to the last edit
+
+
+				Editing with vim
+
+[d ] starts the delete operation
+
+[dw] delete a word
+
+[d0] will delete to the beginning of the line
+
+[d$] will delete to the end of the line
+
+[dgg] will delete to the beginnig of the file
+
+[dG] will delete to the end of the file
+
+[u] undo
+
+[ctrl + r] will redo the last undo
+
+				Searching and replacing
+
+for searching anything in vim goto the insert mode and then [/search] that thing
+
+%s/text/replacement text/ searches for text and replaces it with the replacement text
+
+
+[v] will highlight one character at a time
+
+[V] will highlight one line at a time
+
+[p] will paste the text after the current line
+
+
+[P] will paste the text in the same line
+
+[y] will put text in the copy buffer
+
+
+
+				Saving and quitting vim
+
+[:q] normal quit
+
+[:q!] force quit
+
+[:w filename] can rename an existing file or give the file a filename
+
