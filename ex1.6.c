@@ -10,3 +10,6 @@ int main()
 		putchar(EOF);
 }
 /* If this prints no char then the value of EOF is 0 */
+
+
+
