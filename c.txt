@@ -192,4 +192,38 @@ while (fahr <= upper) {
 
 
 
+>>>>> File copying
+
+
+#The below given example will copy it's input to output a character at a time.
+
+
+	=> SYNTAX
+
+			#include <stdio.h>
+		
+			/* input to output copying */
+
+			int main () {
+			
+			int c;
+
+			c = getchar();
+			while (c != EOF) {
+			putchar(c);
+			c = getchar();
+			}
+			}
+
+
+
+
+# Here the ! operator means ``not equal to``
+
+# The char variable is used to store character type of data although you can use any interger 
+# type variable.
+
+# int is used because  
+
+
 
