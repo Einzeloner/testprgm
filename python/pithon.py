@@ -23,7 +23,28 @@ print("\nThis will print 3 as a string character. (Line 23 in program)\n")
 print("Solution=\n")
 # Declaring variable with what is known as casting(When you put data type while writing the variable)
 
-x = str('This is an example of typing in string data type.\n')
+x = str('This is an example of typing in string data type.\nYeah these lines are the declared value for the variable.\n')
 print(x)
 
 # Program ends lmao. tf do you expect now?
+print("\nAnother example for the casting type of variable declaration will be something like this.\n")
+
+# Declaring a fucking variable again
+
+x = str("\nWait a fucking second. I am tired of writing print commands every time. For now I will just declare a varibale for all my gibberish and call it a day.")
+print(x)
+# program end lmao
+print("\nYeah I used string type again because it is a string of characters.\n")
+
+# Another program start
+
+y = str('Syntax =\n     x = str("Whatever you just read in the above sentence becasue I am not typing it again.")\n     print(x)\n')
+print(y)
+
+# program ends again u_u
+
+# Another program starts
+x = str('\nNow I used "y" as my variable in this program (Line 43 bud) which will probably not make you think that I have been using the same variable name "x" as my variable since the last few programs.\n\nTo answer your completely asssumed query I will say that *Variables can be re declared anytime you want( assume the ** as some kind of social media cheat where you make text bold or what not.)*.\n')
+print(x)
+
+# The saga ends
