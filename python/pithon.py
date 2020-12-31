@@ -17,8 +17,13 @@ x = 5
 print(x)
 
 #Program end
+
 print("\n Variables can also be stored as a data type by simply stating the data type while declaring the variable.\n\nSyntax=\n        x = str(3)\n        print(x)\n")
 print("\nThis will print 3 as a string character. (Line 23 in program)\n")
-
+print("Solution=\n")
 # Declaring variable with what is known as casting(When you put data type while writing the variable)
 
+x = str('This is an example of typing in string data type.\n')
+print(x)
+
+# Program ends lmao. tf do you expect now?
