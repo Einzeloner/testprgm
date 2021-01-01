@@ -62,5 +62,16 @@ print(x)
 
 # This whole program is a long day ending of comments like these. Also sorry for any typos. I do not type well.
 
-x = str("\nYou can also find the type of declared variable using the type(VariableName) function.\n ")
+x = str("\nYou can also find the type of declared variable using the type(VariableNameHere) function.\n ")
 print(x)
+
+# Syntax highlight 
+
+y = '\nSyntax =\n       x = "whatever"\n      print(type(x))\n'
+print(y)
+print(type(y))
+y = '\nThe syntax was in the string data type so the type() function will print <STR or something> (Line 69 heh)\n'
+print(y)
+
+# Program ends with it printing the type as well as the variable
+
