@@ -59,3 +59,8 @@ x = str("These whole three lines that I wrote are written using the variable 'x'
 print(x)
 
 # So another program ends. Now at last I will type here the type() function.
+
+# This whole program is a long day ending of comments like these. Also sorry for any typos. I do not type well.
+
+x = str("\nYou can also find the type of declared variable using the type(VariableName) function.\n ")
+print(x)
