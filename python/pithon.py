@@ -91,3 +91,12 @@ print(z)
 print("\nSolution=\n")
 x = '       whatever\n       you\n       saw\n'
 print(x)
+
+# Another topic in variable is the addition of variables.
+
+x ="We did enough variable declaration for today, Now we have to it print it.\nFor that we use the + symbol to print the value of variable with a text in the print function.\n"
+print(x)
+
+# Now the syntax for printing variables.
+
+x = 'Syntax=\n'
