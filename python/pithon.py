@@ -75,3 +75,19 @@ print(y)
 
 # Program ends with it printing the type as well as the variable
 
+# Declaring multiple variables at once
+
+x, y, z = '\n\nAnother quick note that I want to include', 'Is that you can declare as many variables at one time', 'I have delared 3 this time. (Line 77)'
+print('\nNow I can print them however the fuck I want so lezzgooo.')
+print(x)
+print(y)
+print(z)
+print("\n\nIf this now looks gibberish to you then now look at the program starting from line 77 to understand this.")
+print("All of the three variables were written in one line like this:")
+y = 'Syntax=\n'
+print(y)
+z = '       x, y, z, = whatever, you, saw.\n         print(x)\n         print(y)\n         print(z)\n'
+print(z)
+print("\nSolution=\n")
+x = '       whatever\n       you\n       saw\n'
+print(x)
