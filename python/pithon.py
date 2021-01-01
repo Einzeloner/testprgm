@@ -49,4 +49,13 @@ print(x)
 
 # The saga ends
 
-# Another saga begins
+# Another saga begins, my eyes are like photography lens. Just wanted to make that Rakim reference there.
+
+x = str("What I will do is that I will use the variable 'x' for this random gibberish and variable 'y' for syntax.\n")
+print(x)
+x = str("Ah so I only have to write the print statement once instead of repeating print like a gramophone with stuck pin\n")
+print(x)
+x = str("These whole three lines that I wrote are written using the variable 'x' (Line 52) and the syntax(Line 43) is written with the variable 'y'.\nThis goes to show that you can redeclare variables at any time.\n")
+print(x)
+
+# So another program ends. Now at last I will type here the type() function.
