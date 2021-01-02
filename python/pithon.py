@@ -122,3 +122,9 @@ print(z)
 x = '\n\n\n\n                     DATA TYPES\n'
 print(x)
 
+y = 'Data types are the.. well data types. The type of data that you enter inside a variable.\n Sorry I cant explain this enough but its the type of input you give the variable.\n'
+x = 'List of data types=\n'
+z = '          Text type = str\n        Number type = int, float, complex\n      Sequence type = list, tuple, range\n       Mapping type = dict\n           set type = set, frozenset\n       Boolean type = bool\n        Binary type = bytes, bytearray, memoryview\n '
+print(y)
+print(x)
+print(z)
