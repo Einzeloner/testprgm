@@ -139,15 +139,29 @@ print("Let's start with declaring a variable in 'float' and 'int' just to conver
 # conversion for float
 
 x = float(input("Enter a float number (with decimal point): "))
-print('Now with some magic I will covert your "float" into "int"...')
+print('Now with some magic I will covert your "float" into "int"...\n')
 xi = int(x)
-print(xi)
-print("Done lmao\n")
+print("Your solution is... ",  xi)
+print(type(xi))
 
 # conversion for int
 
 x = int(input("Integer number this time: "))
-print("Some hocus pocus shit. idk")
+print("Some hocus pocus shit. idk\n")
 xf = float(x)
-print(xf)
-print('Done again.\n')
+print("Your solution this time is... ", xf)
+print(type(xf))
+
+# Done with the conversion
+
+print("\nNow you will see that I used the type() and input() function in this code (Line 142). The type is used so that it shows you that it has changed and the input() function for your inputs.\nThat is a brief explanation of data types in python.\n\nAlso note that you cannot simply convert 'complex' data type into 'int' or 'float'. Shit doesn't work that way.\n ")
+
+print('\n\n\n\n\nUmmm.....................  I forgot to write the syntax lmao.\n\nSyntax=\n')
+x = ('      x = int(input("Your message here: "))\n     print("The magic message")\n        xf = float(x)\n     print("the solution is this: ", xf)\n       print(type(xf))\n')
+print(x)
+
+
+print("\nIf you get syntax/indentation error after copying this code in the shell or IDE, well this is what you get for copying and not writing shit on your own.\n")
+
+
+# Okay we getting into multiline string boiiiissssss. Heck yeah.
