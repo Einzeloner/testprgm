@@ -112,3 +112,10 @@ print(z)
 
 
 
+# For the last topic in variables. Global variables.
+
+# I procrastinated so much that probably a marriage happened while I was procrastinating in the day.
+# It's 17:32, they are probably tired as shit looking at each other and being happy.
+
+
+# Anyways continuing.
