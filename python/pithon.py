@@ -99,4 +99,16 @@ print(x)
 
 # Now the syntax for printing variables.
 
-x = 'Syntax=\n'
+x = 'Syntax=\n      x ="Whatever"\n     print("My program is... " + x)\n'
+print(x)
+y = 'Solution=\n        My program is... Whatever\n'
+print(y)
+z = '\nThis is the syntax for printing variables with some text of your choice.'
+print(z)
+
+# program ends lmao.
+
+# RIP MF DOOM. Knew a lot about HipHop from you. Rest easy.
+
+
+
