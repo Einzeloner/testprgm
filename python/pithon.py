@@ -128,3 +128,26 @@ z = '          Text type = str\n        Number type = int, float, complex\n     
 print(y)
 print(x)
 print(z)
+print("Now I used the variable z for the list of data types and after this I will print the type of it using the type func. (Line 124)\n")
+print(type(z))
+print("\nThis shows that all the characters are printed using the str data type and also that the amount of print commands that I use is aneurism worthy.\n")
+
+# Type conversion for variables. idk why I am tired, I did nothing the entire day.
+
+print("Let's start with declaring a variable in 'float' and 'int' just to convert them into 'int' and 'float' respectively because why tf not lmao.\n")
+
+# conversion for float
+
+x = float(input("Enter a float number (with decimal point): "))
+print('Now with some magic I will covert your "float" into "int"...')
+xi = int(x)
+print(xi)
+print("Done lmao\n")
+
+# conversion for int
+
+x = int(input("Integer number this time: "))
+print("Some hocus pocus shit. idk")
+xf = float(x)
+print(xf)
+print('Done again.\n')
