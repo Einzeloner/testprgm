@@ -119,3 +119,6 @@ print(z)
 
 # Okay! Moving into data types.
 
+x = '\n\n\n\n                     DATA TYPES\n'
+print(x)
+
