@@ -165,3 +165,11 @@ print("\nIf you get syntax/indentation error after copying this code in the shel
 
 
 # Okay we getting into multiline string boiiiissssss. Heck yeah.
+
+# took a break and talked to my friend. I am as useful as a brick could be in a conversation. Idk how useful I am to you for the program
+
+
+# Okay into strings. This is gonna take some time.
+
+
+
