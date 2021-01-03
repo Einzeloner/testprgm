@@ -200,4 +200,26 @@ want'''
 print(z)
 print(x)
 
+# Now getting into more of the string parameters. Also I need to stop pushing git commits like it is the save button.# will now push git commits in 20 line or more lmao. (I hope)
 
+# Okay! String length
+
+print(" \n\n\n             String length\n\n")
+x = 'I will now count the length of this statement with python'
+print(x)
+a = len(x)
+x = '       The length is ', a
+print(x)
+
+# was a brick again.
+
+print("I am actually too lazy to check the length of the string so you can check it yourself. No need to thank me.\n")
+x = '\nPrinting the length of the string requries the len() function\n'
+print(x)
+y = 'Syntax=\n      x = whatever\n      print(len(x))\n'
+print(y)
+z = 'Solution=\n'
+print(z)
+a = 'whatever'
+print(len(a))
+print('\nYou can look at line 215 for more info. For now we are moving on.\n')
