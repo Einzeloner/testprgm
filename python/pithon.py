@@ -227,10 +227,24 @@ print('\nYou can look at line 215 for more info. For now we are moving on.\n')
 
 # Moving into string check.
 
+print('Now we are getting into string check\n ')
+
 x = str(input("Enter a sentence with 69 in it:"))
 if '69' in x:
-    print("Nice!")
+    print("Nice!\n")
 else:
-    print("Did I tell you to enter a sentence with 69 in it dude.")
+    print("Did I tell you to enter a sentence with 69 in it dude.\n")
 
 # this is pretty much string checking.
+
+print("\nYou see I was able to identify that you put 69 into the sentence with the method of string checking\n")
+x = '\n\nSyntax=\n'
+y = '       x = str(input("Enter the sentence: "))\n        if "69" in x\n      print("Nice!")\n        else:\n     print("Yeah the other sentence")\n'
+print(x)
+print(y)
+z = 'Solution=\n\nDepending upon your input it is either "Nice" or "Yeah the other sentence".\n'
+
+# okay I reached 10k characters. holy foook
+
+print(z)
+
