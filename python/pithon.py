@@ -172,4 +172,32 @@ print("\nIf you get syntax/indentation error after copying this code in the shel
 # Okay into strings. This is gonna take some time.
 
 
+# I am starting this the other day because I was really tired.
+
+x = '''So.... remember how I mocked the python interpreter for not scanning the enter in newline?
+Well uh..... I just had to put the entire fucking thing  in between 3 quotation marks on either side.
+That was Dunning-Kruger effect at it's finest boii.
+I sometimes blow my own mind on how stupid I can be sometimes like it's nirvana. '''
+print(x)
+y = '''\nAnyways no newline spam from now on. All my homies put shit in 3 quotation marks on either side of print
+statement.'''
+print(y)
+
+
+
+y = '\nSyntax=\n'
+print(y)
+x = '''x = """Whatever
+        you
+        want"""
+print(x)'''
+print(x)
+
+z = '\nSolution=\n'
+x = '''Whatever
+you
+want'''
+print(z)
+print(x)
+
 
