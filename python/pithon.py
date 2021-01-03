@@ -223,3 +223,14 @@ print(z)
 a = 'whatever'
 print(len(a))
 print('\nYou can look at line 215 for more info. For now we are moving on.\n')
+
+
+# Moving into string check.
+
+x = str(input("Enter a sentence with 69 in it:"))
+if '69' in x:
+    print("Nice!")
+else:
+    print("Did I tell you to enter a sentence with 69 in it dude.")
+
+# this is pretty much string checking.
