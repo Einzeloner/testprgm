@@ -233,18 +233,32 @@ x = str(input("Enter a sentence with 69 in it:"))
 if '69' in x:
     print("Nice!\n")
 else:
-    print("Did I tell you to enter a sentence with 69 in it dude.\n")
+    print("\nDid I tell you to enter a sentence with 69 in it dude.\n")
 
 # this is pretty much string checking.
 
 print("\nYou see I was able to identify that you put 69 into the sentence with the method of string checking\n")
 x = '\n\nSyntax=\n'
-y = '       x = str(input("Enter the sentence: "))\n        if "69" in x\n      print("Nice!")\n        else:\n     print("Yeah the other sentence")\n'
+y = '     x = str(input("Enter the sentence: "))\n     if "69" in x\n       print("Nice!")\n        else:\n     print("Yeah the other sentence")\n'
 print(x)
 print(y)
-z = 'Solution=\n\nDepending upon your input it is either "Nice" or "Yeah the other sentence".\n'
+z = 'Solution=\n\nDepending upon your input it is either "Nice" or "Yeah the other sentence". (Line 228)\n'
 
 # okay I reached 10k characters. holy foook
 
 print(z)
+
+
+# Now we are going to slice the string bois. Slice up like a good... white... batch... of vanilla ice cream.
+
+print("\n\n                              Slicing string input\n")
+
+print("\nNow what print only the first n-1 characters of an input word. n being the number of characters in a word\n")
+
+x = raw_input("Your string here: ")
+y = len(x)
+print("Your string is ", x)
+print("With it's length being ", y)
+print('Now the solution for this will be...\n\n')
+print(x[:-1])
 
