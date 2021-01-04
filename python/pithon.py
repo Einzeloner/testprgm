@@ -259,6 +259,38 @@ x = raw_input("Your string here: ")
 y = len(x)
 print("Your string is ", x)
 print("With it's length being ", y)
-print('Now the solution for this will be...\n\n')
+print('Now the solution for this will be...\n')
 print(x[:-1])
+print(type(x))
+
+# I was a lot busy today because of classes and all. Barely did one commit before ending the day.
+
+# So moving on with the string variables and how to slice it like a batch of coca.. uhh I mean vanilla..
+# vanilla family pack ice cream. Yes!
+
+
+# Starting off with the syntax of the string slicing program....
+
+x = '\n\nSyntax=\n'
+y = '''            x = raw_input("Your string here: ")
+            y = len(x)
+            print("Your string is: ", x)
+            print("With it's length being: ", y)
+            print("Your string will be reduced one character...")
+            print(x[:-1])
+            print(type(x))'''
+print(x)
+print(y)
+
+x = '\n\nSolution=\n'
+y = 'Depending upon your input the solution will be like thi'
+print(x)
+print(y)
+
+
+# Done with the slicing off strings program.
+
+# Now moving onto modifying strings.
+
+
 
