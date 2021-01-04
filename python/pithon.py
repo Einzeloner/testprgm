@@ -257,9 +257,12 @@ print("\nNow what print only the first n-1 characters of an input word. n being 
 
 x = raw_input("Your string here: ")
 y = len(x)
-print("Your string is ", x)
-print("With it's length being ", y)
-print('Now the solution for this will be...\n')
+print("\n")
+print("""Your string is """, x)
+print('\n')
+print("""With it's length being """, y)
+ptiny('\n')
+print('''Now the solution for this will be...\n''')
 print(x[:-1])
 print(type(x))
 
@@ -292,5 +295,8 @@ print(y)
 
 # Now moving onto modifying strings.
 
+# Oh you fucking wait there are some syntaxes left before we move onto modifying strings
 
+
+print('\n\n                         Slicing using indexing\n')
 
