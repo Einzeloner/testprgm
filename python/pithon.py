@@ -354,10 +354,20 @@ print(x.upper())
 x = '\n\nSyntax\n'
 y ='''           x = raw_input("Enter your string here: ")
             print('Your string is,' x)
-            print(Now I am gonna make it all caps( Bonus points if you get the reference))
+            print(Remember ALL CAPS in the string's name ( Bonus points if you get the reference))
             print(x.upper())'''
 print(x)
 print(y)
+
+
+x = '''\nBecause this is python, there exists a way to make everything sound like you're nervous too!\n'''
+print(x)
+y = raw_input("ENTER IN ALL CAPS HERE: ")
+z = len(y)
+print('\n')
+print('Your string has a length of ', z)
+print("Now into lowercase\n")
+print(y.lower())
 
 
 
