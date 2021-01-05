@@ -330,8 +330,34 @@ print("Now I am gonna print everything from the second character of the string t
 x = raw_input("Enter your string again: ")
 y = len(x)
 print("The length of your string is", y)
-print("\nNow I will print everything from the second character...\n\n")
+print("\nNow I will print everything from after the second character...\n\n")
 print(x[2:])
+
+
+# Starting with modifying strings
+
+
+
+print("\n\n\n                      Modifying strings\n")
+
+
+# Making string characters upper case
+
+
+print('\nPython has this amazing feature where it makes anything you type look like you are screaming or defending anime tastes somewhere.\nIn other words it makes everything you type upper cased.\n')
+x = raw_input("Enter your reasons here: ")
+print('Your string is:', x)
+print("\nNow printing it in upper case in 3... 2...\n")
+print(x.upper())
+
+
+x = '\n\nSyntax\n'
+y ='''           x = raw_input("Enter your string here: ")
+            print('Your string is,' x)
+            print(Now I am gonna make it all caps( Bonus points if you get the reference))
+            print(x.upper())'''
+print(x)
+print(y)
 
 
 
