@@ -308,3 +308,30 @@ print('The length of your string is', y)
 print('\n')
 print("I will only print the first 5 characters of your string now...\n")
 print(x[:5])
+print('\n\nSyntax=\n')
+print("""            x = raw_input("Your string here: ")
+                y = len(x)
+                print("The length of your string is", y)
+                print(For the first 5 characters it will be...)
+                print(x[:5])""")
+
+# There we go slicing string from first. Just some explanations left.
+
+print("""   The [] stand for indexing. Integers for a string character can be indexed from where to where using [a:b].
+        Let 'a' be an integer, it marks the starting of the string to print and 'b' marks the end of the string to
+        print. Leaving the first one (a) empty like [:b], then the program will print every string character ONLY
+        UNTIL b.\n\n 'a' and 'b' resemble the position of a character in the string input, with a being the starting
+        point of the character and b being the ending point of the character.\n\n""")
+
+# Now we are gonna slice from a character to the end of the string.
+
+print("\n\n                     Slicing from the end\n\n")
+print("Now I am gonna print everything from the second character of the string that you enter\n")
+x = raw_input("Enter your string again: ")
+y = len(x)
+print("The length of your string is", y)
+print("\nNow I will print everything from the second character...\n\n")
+print(x[2:])
+
+
+
