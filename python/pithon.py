@@ -381,6 +381,36 @@ print("\nThis will print everything in lowercase.\n")
 
 # Will go into replacing strings tomorrow
 
-print('\n\n                 Replacing strings\n')
+print('\n\n                         Replacing strings\n')
+
+print('''\nPython has this amazing feature once again where you can replace whatever character you want
+        with some other character that you want.
+        \n      Let's say you write the naughty F word, if you interperte it through the replace()
+        function, with the right syntax, it will correct the F word into DUCK.
+        Just like in real iphones.\n''')
+
+# Syntax for replacing string
+
+x = raw_input("""Enter something with F in it ;) """)
+if "f" in x:
+    print(x.replace("f", "d"))
+elif "F" in x:
+    print(x.replace("F", "D")) 
+else:
+    print("""\nNo F or f :( """)
+
+# Now printing the synatax.
+
+x = '\n\nSyntax=\n'
+y = """\n                   x = raw_input("Enter something ig: ")
+                    if 'f' in x:
+                        print(x.replace("f", "d"))
+                    elif "F" in x:
+                        print(x.replace("F", "D"))
+                    else:
+                        print("No F for you.")"""
+print(x)
+print(y)
 
 
+# We are done with replacing strings and now we move onto split string...
