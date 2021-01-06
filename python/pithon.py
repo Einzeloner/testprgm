@@ -369,5 +369,18 @@ print('Your string has a length of ', z)
 print("Now into lowercase\n")
 print(y.lower())
 
+# Syntax remaining for the lower case version 
+x = '''         x = raw_input("Your cap string here: ")
+            print('Your string is', x)
+            print(x.lower())
+'''
+y = '\n\nSynatx=\n'
+print(y)
+print(x)
+print("\nThis will print everything in lowercase.\n")
+
+# Will go into replacing strings tomorrow
+
+print('\n\n                 Replacing strings\n')
 
 
