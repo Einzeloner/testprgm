@@ -435,4 +435,22 @@ print("\n\n\nNow we are done with modfying strings. We will now move onto replac
 # Concentrating strings...
 
 print("\n                               Adding strings (concentration)\n\n\n")
+print("Python helps you add two variables and print them as one, and the fancy name given to this was concentration\n ")
+print("So let's say I want to take two string, integer or float inputs from you, and then I want to add those and print it all in a sentence.\nLet's start- ")
 
+# concentration syntax 
+
+x = raw_input("Enter your first variable here: ")
+print("\n")
+print(type(x))
+print("\n")
+y = raw_input("Your second variable here: ")
+print("\n")
+print(type(y))
+print('\n')
+a = x + y
+print("Now with some 'combination' magic\n")
+print(a)
+print(type(a))
+
+print("Now see I was able to combine two different variables, but I did it with no space in betweeen.\nFor space we can try again.\n\n")
