@@ -448,9 +448,43 @@ y = raw_input("Your second variable here: ")
 print("\n")
 print(type(y))
 print('\n')
-a = x + y
-print("Now with some 'combination' magic\n")
-print(a)
+z = raw_input("You want the variables to be printed with or without space? (with/without) ")
+if "with" in z:
+    a = x + " " + y
+    print(a)
+elif "With" in z:
+    a = x + " " + y
+    print(a)
+elif "without" in z:
+    a = x + y
+    print(a)
+elif "Without" in z:
+    a = x + y
+    print(a)
+else:
+    print("Just type 'with' or 'without' dude...\n\n")
 print(type(a))
 
-print("Now see I was able to combine two different variables, but I did it with no space in betweeen.\nFor space we can try again.\n\n")
+print("Now see I was able to combine two different variables.\nWith or without space all was done in one program. \n\n")
+
+
+x = '\n\nSyntax=\n'
+y = """             x = raw_input("First variable: ")
+            print(type(x))
+            y = raw_input("Second variable")
+            print(type(y))
+            z = raw_input("With or without space? (with/without)")
+            if 'with' in z:
+                a = x + " " + y
+                print(a)
+            elif "without" in it:
+                a = x + y
+                print(a)
+            else:
+                print("Just eneter what's being asked dude... >|:( )"""
+print(x)
+print(y)
+
+
+
+
