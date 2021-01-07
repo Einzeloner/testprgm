@@ -414,3 +414,25 @@ print(y)
 
 
 # We are done with replacing strings and now we move onto split string...
+
+print("\n\n                                     Splitting the string\n")
+
+print('''Python can also make a list for you if you enter a string for it or define it. It's upto you
+how you want to use the string but python sure will 'split' it into substrings.''')
+
+# Splitting the string syntax
+
+x = raw_input("\n\nEnter your string here...\nBut beware tho, I will only split it if it has 's' in it.\n:")
+print(x.split("s"))
+x = '\n\n\nSyntax=\n'
+y = '''             x = raw_input("Your string with 's' here: ")
+            print(x.split("s"))'''
+print(x)
+print(y)
+print("\n\n\nNow we are done with modfying strings. We will now move onto replacing strings.\n")
+
+
+# Concentrating strings...
+
+print("\n                               Adding strings (concentration)\n\n\n")
+
