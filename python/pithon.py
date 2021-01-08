@@ -481,10 +481,38 @@ y = """             x = raw_input("First variable: ")
                 a = x + y
                 print(a)
             else:
-                print("Just eneter what's being asked dude... >|:( )"""
+                print("Just enter what's being asked dude... >|:( )"""
 print(x)
 print(y)
 
+
+print("\n\nThis was called combining the strings. Now we will move onto formatting the strings.\n\n")
+
+print("                                 \nFormatting the string\n\n")
+print("""       You see, sometimes when I am trying to print some message with a random number that you enter using
+        the python input commands, my lack of knowledge makes me print that using something like this
+                        
+                        ("My message here with your input being 'x', x")
+
+        This does the job just fine  but it prints the whole thing in parenthesis and not as a single sentence.
+        So now that I have started with python I now know that formatting the string is a thing. 
+        String formatting can be used whenever you want to print some string with a variable.""")
+# 500 lines lmao nyeees
+
+
+# Formatting strings program
+
+print("""I will ask you of three variables to fill in some sentence that I need to think.\n\nHmmm....
+Okay\nEnter your..""")
+x = raw_input("Age: ")
+y = raw_input("Social media followers: ")
+z = raw_input("Proud achievement: ")
+a = "So you're {0} and you have {1} followers which don't matter. You should be proud of {2}, I am amazed to know that you did something like this.\n\n"
+print("\n\n\n")
+print(a.format(x, y, z))
+print("\n\nNow that I have now taken input and formatted it accroding to my will, I will now explain how I did it.\n")
+
+# syntax for format string
 
 
 
