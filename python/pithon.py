@@ -531,4 +531,38 @@ the postion on the variables in order. So what that means is that 'x' will be at
 and {1} and {2} will be for the second and third variables starting from top.\n""")
 
 
+print("\n\n                                     Built in string methods\n\n\n")
 
+print("""                   capitalize() - converts the character into upper case
+                    casefold() - converts the string into lower case
+                    center()   - Returns a centered string
+                    count()    - Returns a number of times a specified value occurs in a string
+                    encode()   - Returns an encoded version of string
+                    endswith() - Returns true if the string ends with the specified value.
+                    expandtab()- Expands the tab size of the string
+                    find()     - Searched a specified value in the astring and returns the position
+                    format()   - Formats specified values in a string
+                    index()    - does the same as find lmao
+                    isalnum()  - Returns true if all characters in the string are alphanumeric
+                    isspace()  - Returns true if all characters in the string are whitespaces
+                    istitle()  - Returns true if string follows the rule of title
+                    isalpha()  - Returns true if all characters are alphabets
+                    isdecimal()- Returns true if all characters are decimals
+                    isdigit()  - Returns true if all characters are digits
+                isidentifier() - Returns true if the values of strings are identifiers
+                isprintable()  - Returns true if all characters in the string are printable
+                    isupper()  - Returns true if all characters in teh strings are upper cases
+                    join()     - Joins element to the end of the string
+                    ljust()    - Returns a left justified version of the string
+                    lower()    - Converts the string into lower case
+                    lstrip()   - Returns a left trim version of string
+                    maketrans()- Returns an translational table to be used in translations
+                    partition()- Returns a tuple where the string is parted into three parts
+                    replace()  - Replaces a certain value in a string
+                    rfind()    - Searches the string ffor a value then returns it's position
+                    rindex()   - Same as rfind()
+                    rjust()    - Returns a right justified version of string
+                rpartition()   - Returns a tuple where the string is parted into three parts
+                    split()    - Splits the string at specified operator, and returns a list
+                    rstrip()   - Returns the right trim version of the string
+                    rsplit()   - """)
