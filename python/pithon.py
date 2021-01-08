@@ -514,5 +514,21 @@ print("\n\nNow that I have now taken input and formatted it accroding to my will
 
 # syntax for format string
 
+x = "\nSyntax=\n\n"
+y  = '''            x = raw_input("Variable1: ")
+            y = raw_input("variable2:")
+            z = raw_input("Variable3: ")
+            a = "The first variable {0} here lies the second variable{1} and here lies the thrid variable{2}"
+            print(a.format(x, y, z))'''
+
+print(x)
+print(y)
+
+# so guys we did it, we reached 20k characters
+
+print("""\n\nOne thing I wanted to add is that those curly bracket numbers like {0}, {1}, {2}, they represent
+the postion on the variables in order. So what that means is that 'x' will be at position 0 (first in the sentence)
+and {1} and {2} will be for the second and third variables starting from top.\n""")
+
 
 
