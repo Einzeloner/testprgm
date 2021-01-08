@@ -565,4 +565,21 @@ print("""                   capitalize() - converts the character into upper cas
                 rpartition()   - Returns a tuple where the string is parted into three parts
                     split()    - Splits the string at specified operator, and returns a list
                     rstrip()   - Returns the right trim version of the string
-                    rsplit()   - """)
+                splitlines()   - splits the strings at line break and returns a list
+                startswith()   - Returns true if the string starts with a specified value
+                     strip()   - Returns a trimmed version of string
+                     swapcase()- Swaps cases, lower case becomes upper case and vice versa
+                     title()   - Converts the first character of each word to uppercase
+                    translate()- Returns a translated string
+                    upper()    - convert the string into upper case
+                    zfill()    - Fills the string with specified number of 0 from the beginning.""")
+
+
+# Plan to revisit. TODO- Make individual programs for string methods.
+
+
+# Finally strings are done and now I am moving into boolean
+
+
+print("\n                               Boolean in python\n\n")
+print("Boolean basically stands for either true or false")
