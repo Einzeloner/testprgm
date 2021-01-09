@@ -582,4 +582,16 @@ print("""                   capitalize() - converts the character into upper cas
 
 
 print("\n                               Boolean in python\n\n")
-print("Boolean basically stands for either true or false")
+print("Boolean basically stands for either true or false. Almost everything is true in python, just with some exceptions.")
+
+print("\n\nSyntax for returning a boolean output is=\n")
+x = """                 x = 'some variable'
+                print(bool(x))"""
+print(x)
+y = """\n\n\nAlmost any value is true if it has some sort of content.
+
+Any string is true, except empty string
+Any number is true except 0
+And any list, tuple, set, dictionary is true except empty ones."""
+print(y)
+
