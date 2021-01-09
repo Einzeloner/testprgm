@@ -608,25 +608,30 @@ print(x)
 print(y)
 
 
-x = int(input("Enter an integer here: "))
-y = int(input("Enter another integer here: "))
+x = float(input("Enter a number here: "))
+y = float(input("Enter another number here: "))
 
 # Operations lol
 add = x + y
-a = "Addition = {}"
+a = "\nAddition = {}"
 print(a.format(add))
 sub = x - y
-a = "Substraction = {}"
+a = "\nSubstraction = {}"
 print(a.format(sub))
 
 #checking for now
 # It works
 
 mult = x * y
-a = "Multiplication = {}"
+a = "\nMultiplication = {}"
 print(a.format(mult))
 
-div = x / y
-a = float("Division = {}")
+div = (x / y)
+a = ("\nDivision = {}")
 print(a.format(div))
+
+
+# Basic operators are done lol. well more there are.
+
+
 
