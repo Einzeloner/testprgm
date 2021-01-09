@@ -595,3 +595,38 @@ Any number is true except 0
 And any list, tuple, set, dictionary is true except empty ones."""
 print(y)
 
+
+# Starting with operators
+
+print('\n\n\n                   Python operators\n')
+x = '''\n\nPython uses operators when it has to perform an... operation. **BA DUM TSHHH**.'''
+
+# TODO Every operator depending upon the input in one program.
+
+y = '\nNow I am gonna ask you some inputs and perform some basic operations based on your input.'
+print(x)
+print(y)
+
+
+x = int(input("Enter an integer here: "))
+y = int(input("Enter another integer here: "))
+
+# Operations lol
+add = x + y
+a = "Addition = {}"
+print(a.format(add))
+sub = x - y
+a = "Substraction = {}"
+print(a.format(sub))
+
+#checking for now
+# It works
+
+mult = x * y
+a = "Multiplication = {}"
+print(a.format(mult))
+
+div = x / y
+a = float("Division = {}")
+print(a.format(div))
+
