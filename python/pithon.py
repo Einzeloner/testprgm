@@ -634,4 +634,18 @@ print(a.format(div))
 # Basic operators are done lol. well more there are.
 
 
+exp = x ** y
+a = "\nExponential = {}"
+print(a.format(exp))
+
+mod = x%y
+a = "\nModulus = {}"
+print(a.format(mod))
+
+
+# Arthemetic operators are done
+
+
+# Moving on with assignments operators
+
 
