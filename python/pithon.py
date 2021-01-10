@@ -652,27 +652,7 @@ print(a.format(mod))
 # Arthemetic operators are done
 
 
-print("Moving on to assignments operators\n\n")
-
-# Setting a varibale equal to a value
-
-print("Setting a variable equal to something\n\nSynatx = x = 'somevalue'\nIf you put a number in '', python will take the value as a string and not an integer or float.")
-
-# Assinging a value + integer after the operation is done on the variable
-x = int(input("Enter an integer value: "))
-afteradd = y += x
-a = "Adding y that was previosuly defined to the newly defined x = {}\n"
-print("Syntax = x += y\n")
-print(a.format(afteradd))
-
-# Subtracting after the value has been assingned 
-aftersub = x -= y
-print("Subtracting from newly defined x with previously defined y\nSyntax = x-= y\n")
-a = "Subtracting = {}\n"
-print(a.format(aftersub))
-
-# Dividing after the value has been assigned
-
+print("Moving on to comparison opperators\n")
 
 
 
