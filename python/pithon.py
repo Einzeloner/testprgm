@@ -653,6 +653,16 @@ print(a.format(mod))
 
 
 print("Moving on to comparison opperators\n")
+print("""                 == - Equal
+                != Not equal
+                > greater than
+                < less than
+                >= Greater than or equal to
+                <= Less than or equal to\n\n""")
+
+# Logical operators
+
+
 
 
 
