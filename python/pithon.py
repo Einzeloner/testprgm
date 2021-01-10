@@ -663,6 +663,27 @@ print("""                 == - Equal
 # Logical operators
 
 
+print("\n               Python logical operators\n\n")
+print("""                   and - Returns true if both statement are true
+                    or - Returns true if any one of the statement is true
+                    not- Reverses the result, returns 'False' if the results arte true.""")
+
+# Identity operators
+
+print("\n\n                 Python identity operators\n\n")
+print("""                       is - Returns true if both variables are the same.
+                        is not - Returns true if both variables are not the same\n\n""")
+
+# Membership operators
+
+print("\n                       Python membership operators\n\n")
+
+print("                 \nin - Returns true if the string is present in the object
+            not in - Returns true if the string is not present in the object.\n")
+
+# Bitwise operators
+
+print("\n\n                 Python bitwise operators")
 
 
 
