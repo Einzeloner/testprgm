@@ -678,13 +678,19 @@ print("""                       is - Returns true if both variables are the same
 
 print("\n                       Python membership operators\n\n")
 
-print("                 \nin - Returns true if the string is present in the object
-            not in - Returns true if the string is not present in the object.\n")
+print("""                 \nin - Returns true if the string is present in the object
+            not in - Returns true if the string is not present in the object.\n""")
 
-# Bitwise operators
+# Done with some operators.
 
-print("\n\n                 Python bitwise operators")
+# Entering into lists
 
+print("\n\n                     Lists\n")
+print("List is basically multiple values stored in  one variable. * Like a list lol *\nI will now define a list and ask you a few things.\n")
 
-
+x = raw_input("Enter a fruit: ")
+y = raw_input("Enter something else: ")
+z = raw_input("Enter another something else: ")
+yourdeflist = [x, y, z]
+print(yourdeflist)
 
