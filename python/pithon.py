@@ -733,3 +733,38 @@ of list to get the value you want.\n\n""")
 
 #  TODO - A program to display various information about an input string.
 
+print("""\nSometimes the list is a bit large to print everything from the front, 
+which means that printing it from the end of the list is the smartest
+way to go about things. That is where negative  indexing omes to play.
+For example I will now ask you 5 elements for a list and print the last 2 separately.""")
+
+
+a = input("The first element for a string: ")
+b = input("The second: ")
+c = input("The third: ")
+d = input("The fourth: ")
+e = input("The fifth: ")
+anotherlist = [a, b, c, d, e]
+y = len(anotherlist)
+print("Your defined list is {0} and it's length is {1}.\n", anotherlist ,y)
+print("\nNow I will print the last two elements separately... ")
+print('The last one is ', anotherlist[-1])
+print('The second last one is ', anotherlist[-2])
+
+# Range of indexes. My keyboard stablizers suck so much goddamn.
+
+print("""Now let's say that I have a long ass list but I only want to print from
+the first to the third or only want to print from the third to fifth or any
+number to any number. These are done using indexing like in previous strings.
+\n\n                        List indexing\n
+Let's take the last list that we created, I will print from second to the fifth element
+with the help of indexing. Let's try lol..""")
+print(anotherlist[1:])
+
+#another type of print using the number
+print("I am going to print it once again because there are two ways to do this")
+print('\n', anotherlist[2:5])
+
+print("""\n\nThe first way was something like this = print(anotherlist[1:]
+while the second way being like this = print(anotherlist[1:5]))\n
+The difference between them is that one prints from """)
