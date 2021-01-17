@@ -692,9 +692,44 @@ x = input("Enter a fruit: ")
 y = input("Enter something else: ")
 z = input("Enter another something else: ")
 yourdeflist = [x, y, z]
-print(yourdeflist)
+print('\n', yourdeflist)
 
 #Turns out I was using python 2 everytime, there was a small 
 #syntax error because of that lol.
 
 #Okay was wayyy too busy to continue my spam commits
+print("The length of the string can also be printed\n\n")
+
+x = 'The length of your string is {}'
+y = len(yourdeflist)
+
+print(x.format(y))
+print("I mean yeah I just asked you 3 things but the list can be as long as you want ig.")
+
+print('The length of the list was found using len() command.\n')
+
+print("""\n\n                       List in brief...
+                                \n                              list - collection of data type, order is changable
+                                         and duplicates are allowed.
+                                 Tuple - same as list but not changeable
+                                   set - Collection is unordered and unindexed. No duplicate
+                                         members allowed.
+                             Dictonary - unordered and changeable. No duplicate members.\n""")
+
+
+#Now we move onto list indexing.
+
+print('''\nList items can be printed or accessed one at a time after you define them.
+For now I am gonna print the first element of the list that you defined.''')
+print(yourdeflist[0])
+print("Done!..")
+print("""\n\nThe syntax that I used for accessing list elements one at a time is
+something like this.\n\n                print(thelistname[0])
+This will print the first element of the list, replace the number with the desired position
+of list to get the value you want.\n\n""")
+
+#negative indexing starts here lmao
+
+
+#  TODO - A program to display various information about an input string.
+
