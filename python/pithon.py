@@ -255,7 +255,7 @@ print("\n\n                              Slicing string input\n")
 
 print("\nNow what print only the first n-1 characters of an input word. n being the number of characters in a word\n")
 
-x = raw_input("Your string here: ")
+x = input("Your string here: ")
 y = len(x)
 print("\n")
 print("""Your string is """, x)
@@ -301,7 +301,7 @@ print(y)
 print('\n\n                         Slicing using indexing\n')
 
 print("\nPrinting a word then slicing the string from the start.\n")
-x = raw_input("Maybe you can enter a string here: ")
+x = input("Maybe you can enter a string here: ")
 y = len(x)
 print('\n')
 print('The length of your string is', y)
@@ -327,7 +327,7 @@ print("""   The [] stand for indexing. Integers for a string character can be in
 
 print("\n\n                     Slicing from the end\n\n")
 print("Now I am gonna print everything from the second character of the string that you enter\n")
-x = raw_input("Enter your string again: ")
+x = input("Enter your string again: ")
 y = len(x)
 print("The length of your string is", y)
 print("\nNow I will print everything from after the second character...\n\n")
@@ -345,7 +345,7 @@ print("\n\n\n                      Modifying strings\n")
 
 
 print('\nPython has this amazing feature where it makes anything you type look like you are screaming or defending anime tastes somewhere.\nIn other words it makes everything you type upper cased.\n')
-x = raw_input("Enter your reasons here: ")
+x = input("Enter your reasons here: ")
 print('Your string is:', x)
 print("\nNow printing it in upper case in 3... 2...\n")
 print(x.upper())
@@ -362,7 +362,7 @@ print(y)
 
 x = '''\nBecause this is python, there exists a way to make everything sound like you're nervous too!\n'''
 print(x)
-y = raw_input("ENTER IN ALL CAPS HERE: ")
+y = input("ENTER IN ALL CAPS HERE: ")
 z = len(y)
 print('\n')
 print('Your string has a length of ', z)
@@ -391,7 +391,7 @@ print('''\nPython has this amazing feature once again where you can replace what
 
 # Syntax for replacing string
 
-x = raw_input("""Enter something with F in it ;) """)
+x = input("""Enter something with F in it ;) """)
 if "f" in x:
     print(x.replace("f", "d"))
 elif "F" in x:
@@ -422,7 +422,7 @@ how you want to use the string but python sure will 'split' it into substrings.'
 
 # Splitting the string syntax
 
-x = raw_input("\n\nEnter your string here...\nBut beware tho, I will only split it if it has 's' in it.\n:")
+x = input("\n\nEnter your string here...\nBut beware tho, I will only split it if it has 's' in it.\n:")
 print(x.split("s"))
 x = '\n\n\nSyntax=\n'
 y = '''             x = raw_input("Your string with 's' here: ")
@@ -440,15 +440,15 @@ print("So let's say I want to take two string, integer or float inputs from you,
 
 # concentration syntax 
 
-x = raw_input("Enter your first variable here: ")
+x = input("Enter your first variable here: ")
 print("\n")
 print(type(x))
 print("\n")
-y = raw_input("Your second variable here: ")
+y = input("Your second variable here: ")
 print("\n")
 print(type(y))
 print('\n')
-z = raw_input("You want the variables to be printed with or without space? (with/without) ")
+z = input("You want the variables to be printed with or without space? (with/without) ")
 if "with" in z:
     a = x + " " + y
     print(a)
@@ -504,9 +504,9 @@ print("""       You see, sometimes when I am trying to print some message with a
 
 print("""I will ask you of three variables to fill in some sentence that I need to think.\n\nHmmm....
 Okay\nEnter your..""")
-x = raw_input("Age: ")
-y = raw_input("Social media followers: ")
-z = raw_input("Proud achievement: ")
+x = input("Age: ")
+y = input("Social media followers: ")
+z = input("Proud achievement: ")
 a = "So you're {0} and you have {1} followers which don't matter. You should be proud of {2}, I am amazed to know that you did something like this.\n\n"
 print("\n\n\n")
 print(a.format(x, y, z))
@@ -688,9 +688,13 @@ print("""                 \nin - Returns true if the string is present in the ob
 print("\n\n                     Lists\n")
 print("List is basically multiple values stored in  one variable. * Like a list lol *\nI will now define a list and ask you a few things.\n")
 
-x = raw_input("Enter a fruit: ")
-y = raw_input("Enter something else: ")
-z = raw_input("Enter another something else: ")
+x = input("Enter a fruit: ")
+y = input("Enter something else: ")
+z = input("Enter another something else: ")
 yourdeflist = [x, y, z]
 print(yourdeflist)
 
+#Turns out I was using python 2 everytime, there was a small 
+#syntax error because of that lol.
+
+#Okay was wayyy too busy to continue my spam commits
