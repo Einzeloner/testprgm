@@ -763,8 +763,18 @@ print(anotherlist[1:])
 
 #another type of print using the number
 print("I am going to print it once again because there are two ways to do this")
-print('\n', anotherlist[2:5])
+print('\n', anotherlist[1:5])
 
 print("""\n\nThe first way was something like this = print(anotherlist[1:]
 while the second way being like this = print(anotherlist[1:5]))\n
-The difference between them is that one prints from """)
+The difference between them is that one prints from the second element to the last
+while the other prints from second element to the fifth.
+Use this info as you please. """)
+
+
+# Checking if the items exist in a list
+print('''\nSo now that we can print the range of list, let us move onto checking if a string/number
+ exists in a string.''') 
+
+print('Now I will check if you put any naughty words in the list in which I asked you for the input.\n')
+
