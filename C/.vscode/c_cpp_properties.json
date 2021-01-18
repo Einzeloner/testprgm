@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/lib/**",
+                "/usr/local/include/**",
+                "/usr/include/**",
+                "/usr/src/linux-headers-5.8.0-7630/include/linux",
+                "/usr/lib/modules/**",
+                "/usr/src/linux-headers-5.8.0-7630/include/",
+                "/usr/lib/x86_64-linux-gnu/",
+                "/usr/lib/gcc/x86_64-linux-gnu/**",
+                "${default}"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
