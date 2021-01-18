@@ -89,7 +89,9 @@ print(y)
 z = '       x, y, z, = whatever, you, saw.\n         print(x)\n         print(y)\n         print(z)\n'
 print(z)
 print("\nSolution=\n")
-x = '       whatever\n       you\n       saw\n' print(x) # Another topic in variable is the addition of variables. x ="We did enough variable declaration for today, Now we have to it print it.\nFor that we use the + symbol to print the value of variable with a text in the print function.\n" print(x) # Now the syntax for printing variables. x = 'Syntax=\n      x ="Whatever"\n     print("My program is... " + x)\n' print(x) y = 'Solution=\n        My program is... Whatever\n' print(y) z = '\nThis is the syntax for printing variables with some text of your choice.'
+x = '       whatever\n       you\n       saw\n' 
+print(x) 
+# Another topic in variable is the addition of variables. x ="We did enough variable declaration for today, Now we have to it print it.\nFor that we use the + symbol to print the value of variable with a text in the print function.\n" print(x) # Now the syntax for printing variables. x = 'Syntax=\n      x ="Whatever"\n     print("My program is... " + x)\n' print(x) y = 'Solution=\n        My program is... Whatever\n' print(y) z = '\nThis is the syntax for printing variables with some text of your choice.'
 print(z)
 
 # program ends lmao.
@@ -266,8 +268,24 @@ y = '''            x = raw_input("Your string here: ")
             print("Your string is: ", x)
             print("With it's length being: ", y)
             print("Your string will be reduced one character...")
-            print(x[:-1]) print(type(x))''' print(x) print(y) x = '\n\nSolution=\n' y = 'Depending upon your input the solution will be like thi' print(x) print(y) # Done with the slicing off strings program. # Now moving onto modifying strings. # Oh you fucking wait there are some syntaxes left before we move onto modifying strings 
-print('\n\n                         Slicing using indexing\n') print("\nPrinting a word then slicing the string from the start.\n") x = input("Maybe you can enter a string here: ") y = len(x) print('\n') print('The length of your string is', y) print('\n') print("I will only print the first 5 characters of your string now...\n") print(x[:5]) print('\n\nSyntax=\n') print("""            x = raw_input("Your string here: ") y = len(x) print("The length of your string is", y) print(For the first 5 characters it will be...) print(x[:5])""") # There we go slicing string from first. Just some explanations left. print("""   The [] stand for indexing. Integers for a string character can be indexed from where to where using [a:b]. Let 'a' be an integer, it marks the starting of the string to print and 'b' marks the end of the string to print. Leaving the first one (a) empty like [:b], then the program will print every string character ONLY UNTIL b.\n\n 'a' and 'b' resemble the position of a character in the string input, with a being the starting point of the character and b being the ending point of the character.\n\n""") # Now we are gonna slice from a character to the end of the string. print("\n\n                     Slicing from the end\n\n") print("Now I am gonna print everything from the second character of the string that you enter\n") x = input("Enter your string again: ") y = len(x) print("The length of your string is", y) print("\nNow I will print everything from after the second character...\n\n") print(x[2:]) # Starting with modifying strings print("\n\n\n                      Modifying strings\n") # Making string characters upper case print('\nPython has this amazing feature where it makes anything you type look like you are screaming or defending anime tastes somewhere.\nIn other words it makes everything you type upper cased.\n') x = input("Enter your reasons here: ") print('Your string is:', x) print("\nNow printing it in upper case in 3... 2...\n") print(x.upper()) x = '\n\nSyntax\n'
+            print(x[:-1]) print(type(x))'''
+print(x) 
+print(y) 
+y = 'Depending upon your input the solution will be like thi'
+print(x) 
+print(y) 
+# Done with the slicing off strings program. # Now moving onto modifying strings. # Oh you fucking wait there are some syntaxes left before we move onto modifying strings 
+print('\n\n                         Slicing using indexing\n')
+print("\nPrinting a word then slicing the string from the start.\n") 
+x = input("Maybe you can enter a string here: ") 
+y = len(x) 
+print('\n') 
+print('The length of your string is', y) 
+print('\n') 
+print("I will only print the first 5 characters of your string now...\n") 
+print(x[:5]) 
+print('\n\nSyntax=\n') 
+print("""            x = raw_input("Your string here: ") y = len(x) print("The length of your string is", y) print(For the first 5 characters it will be...) print(x[:5])""") # There we go slicing string from first. Just some explanations left. print("""   The [] stand for indexing. Integers for a string character can be indexed from where to where using [a:b]. Let 'a' be an integer, it marks the starting of the string to print and 'b' marks the end of the string to print. Leaving the first one (a) empty like [:b], then the program will print every string character ONLY UNTIL b.\n\n 'a' and 'b' resemble the position of a character in the string input, with a being the starting point of the character and b being the ending point of the character.\n\n""") # Now we are gonna slice from a character to the end of the string. print("\n\n                     Slicing from the end\n\n") print("Now I am gonna print everything from the second character of the string that you enter\n") x = input("Enter your string again: ") y = len(x) print("The length of your string is", y) print("\nNow I will print everything from after the second character...\n\n") print(x[2:]) # Starting with modifying strings print("\n\n\n                      Modifying strings\n") # Making string characters upper case print('\nPython has this amazing feature where it makes anything you type look like you are screaming or defending anime tastes somewhere.\nIn other words it makes everything you type upper cased.\n') x = input("Enter your reasons here: ") print('Your string is:', x) print("\nNow printing it in upper case in 3... 2...\n") print(x.upper()) x = '\n\nSyntax\n'
 y ='''           x = raw_input("Enter your string here: ")
             print('Your string is,' x)
             print(Remember ALL CAPS in the string's name ( Bonus points if you get the reference))
@@ -690,7 +708,58 @@ Use this info as you please. """)
 
 # Checking if the items exist in a list
 print('''\nSo now that we can print the range of list, let us move onto checking if a string/number
- exists in a string.''') 
+ exists in a list.''') 
 
 print('Now I will check if you put any naughty words in the list in which I asked you for the input.\n')
+
+if 'f' in anotherlist:
+    print("\nYou put something that has 'f', which may or may not be a naughty word.")
+elif 'b' in anotherlist:
+    print("\nYou put something that has 'b', which may or may not be a naughty word.")
+else: 
+    print("\nNow I am just lazy so I will skip.\n")
+
+
+#The whole if else thing works. Nice lmao.
+
+
+
+#Now we move onto
+print("""\nLet's say that you defined a list but now you need to add some elements in the list
+or just change the list in general.
+Let's say in the list you defined, I want to change the first element to "sosig", python lets me do that.
+How you might ask? or not?... Anyways, I will now change your defined list's 1st value to "sosig".""")
+print("\nYour defined list was ", anotherlist)
+print("Now activating shit ig....\n\n")
+anotherlist[0] = "sosig"
+print('\n', anotherlist)
+print("""\nNow that I did it, it's time to show you how I did it:
+
+Syntax=
+                thelistname[0] = "sosig"
+                
+You can replace 0 (1st element) with any number as long as it is in the range of the list. Go ahead and try it.
+
+And now that I have done that too, I will change other values of your list too!
+I will change from the 2nd to 4th value of your defined list""")
+print("The current list is this ", anotherlist)
+anotherlist[1:3] = ["SosigAt2", "SosigAt3", "SosigAt4"]
+print("\nYour modified list now will be: ", anotherlist)
+print("""\nThese are all the same concepts as in string, I used sq brackets to define a range and put in the values.
+It would be something like this.
+
+Syntax=
+                    yourdefinedlist[1:3] = ["element2", "element3", "element4"]
+                  
+Once again you can change the values of 1 and 3, they are just numbers that define the values to change in a list.
+
+
+
+Now that we have completed our sosig adventure I will add the cherry on the top by replacing the 5th element
+as well.
+And this time I will add four elements instead of one to the list.""")
+print("\nCurrent list is this: ", anotherlist)
+anotherlist[4:4] = ["The", "sosig", "saga", "continues"]
+
+print("Now the modified list is this:\n ", anotherlist)
 
