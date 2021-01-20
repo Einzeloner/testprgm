@@ -762,4 +762,32 @@ print("\nCurrent list is this: ", anotherlist)
 anotherlist[4:4] = ["The", "sosig", "saga", "continues"]
 
 print("Now the modified list is this:\n ", anotherlist)
+print("""
+
+You see while I was replacing elements in the list, it did replace the element in the list
+but I overlooked the fact that as I add more and more elements the list becomes bigger and
+general numbers don't work.
+So another try and this time I will use -1 like I told you to replace the element at the
+last I.E the 5th (when initially defined, before changing anything).""")
+print("This is our current list\n", anotherlist)
+print("Adding another element in 3...\n")
+anotherlist[-1] = "Sosig@last"
+print("ehhh I am gonna add it now....\n", anotherlist)
+
+#Insterting list is next 
+print("\n\nAhhhhhh finally done with changing elements of the list.\n")
+
+
+print("                                 Inserting in list\n\n")
+print("""We have done most things to the list that we defined but we did not insert anything to 
+the list.
+Now we are gonna add something to the list before last.
+Let me do it rn.""")
+
+
+print("This is our current list\n", anotherlist)
+anotherlist.insert(-1, "Another second last sosig")
+print("Now our modified list will be\n", anotherlist)
+
+# Done with inserting. The syntax is left
 
