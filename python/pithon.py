@@ -791,3 +791,14 @@ print("Now our modified list will be\n", anotherlist)
 
 # Done with inserting. The syntax is left
 
+print("""\n\nNow that we have done this let us look at the syntax.
+Syntax=
+                        yourlistname.insert(a, "The element you want to enter.")
+                 
+Replace 'a'  with any number in the range of th list and it will insert the element before that number.""")
+
+
+# Adding items to the list. It is one long topic goddamn.
+
+#TODO- Need to make individual code for strings, operators and list in the topics sub folder.
+
