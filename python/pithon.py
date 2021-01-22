@@ -802,3 +802,7 @@ Replace 'a'  with any number in the range of th list and it will insert the elem
 
 #TODO- Need to make individual code for strings, operators and list in the topics sub folder.
 
+# There might be a change in the workflow of this python program.
+#Switching to the strategy of making a diff folder named Topics and doing programs
+#topic vise there.
+
