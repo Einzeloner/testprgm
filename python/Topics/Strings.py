@@ -1,7 +1,7 @@
 # Starting of the string topic
 
 #Storing string inside a variable 
-x = "This is how you store a string for a variable." 
+x = "This is how you store a string for a variable.\n" 
 
 #printing that stored string
 print(x)
@@ -26,10 +26,21 @@ print(x.isupper())
 #It will say false because the string is not entirely in upper case.
 
 #lets print check if a new variable is completely upper cased
-y = "THIS IS ENTIRELY IN UPPER CASE!"
+y = "THIS IS ENTIRELY IN UPPER CASE!\n"
 print(y)
 print(y.isupper())  
 #This will print the variable and check whether this is upper case or not
 
 
 #same can be done with lower case characters
+print(y.lower())
+print(y.islower())
+
+#combining functions for strings
+print(y.upper().islower())
+#will give out a false value because I just converted everything into upper
+
+#Now time for the length of strings.
+print(x + "\n{}\n".format(len(x)))
+print(y + "\n{}\n".format(len(y)))
+
