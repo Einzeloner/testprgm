@@ -44,3 +44,9 @@ print(y.upper().islower())
 print(x + "\n{}\n".format(len(x)))
 print(y + "\n{}\n".format(len(y)))
 
+#printing a character from the given string or an input
+z = str(input('Enter a string here baka >_< - '))
+#I'll be printing the fifth chracter of your given string.
+#Note that if there are spaces on the fifth character, it will print the space and dip.
+print(z[4])
+
