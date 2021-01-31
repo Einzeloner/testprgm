@@ -50,3 +50,16 @@ z = str(input('Enter a string here baka >_< - '))
 #Note that if there are spaces on the fifth character, it will print the space and dip.
 print(z[4])
 
+#Passing a parameter to the function and giving out different values
+#remember that indexing starts at 0 instead of starting at 1
+print("Printing the position of 'e' in the string that was just asked\n\n")
+print(z.index("e"))
+#This will only print one value and the value will be qeuivalent to the fist position of 'e'
+#If I wanna print all values for the position of 'e' I'd have to use RegEx. A topic for another day
+
+
+#Now we move onto replacing shit with strings
+print("Anooo~ senpai... I will now replace 'e' in your string with 'C'.\nP... Please excuse me UwU\n ")
+print(z.replace("e", "C"))
+
+#This is pretty much everything to strings. Will add more as I know more.
