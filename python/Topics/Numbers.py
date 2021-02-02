@@ -74,10 +74,25 @@ print("Rounding the variable off using round() func will give: " + str(round(a))
 
 #Importing math functions in python
 from math import *
-#This will import every function from the math library.
+#This will import every function from the math module.
 
 
 #floor function - Gives the closest int value for a given numeric value 
 print("The closest int value for the declared variable: " + str(a) + " is " + str(floor(a)) + ".\n")
 
 #ceil function - does the exact opposite of the floor() function
+print("The least int found using the ceil() func for " + str(a) + " is " + str(ceil(a)) + ".\n")
+
+
+#trying the same two function with a positive value
+b = 45.4455667
+print("The new positive declared integer is " + str(b))
+
+#floor function
+print("using the floor func: " + str(floor(b)) + ".\n")
+print("using the ceil func: " + str(ceil(b)) + ".\n")
+
+#Square root function in python
+snum = float(input("Enter some number here onii chan OwO: "))
+print("O..Oniii chan the square root of the number i.. is.. " + str(sqrt(snum)) + " UwU\n")
+
