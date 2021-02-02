@@ -51,11 +51,33 @@ print(str(a) + " Has an absolute value of " + str(abs(a)))
 
 
 #The pow function.
-print("Printing the variable z with a power of 4 using the powe function.\n")
-print("Using the pow() function the value will be " + str(pow(z, 4)) + "\n")
+print("Printing the variable z with a power of 4 using the power function.\n")
+print("Using the pow() function the value will be: " + str(pow(z, 4)) + "\n")
 #This is basically equal to -5^4
 
 #Using the max function to determine which input or variable or number has more value.
 #taking user input using input
 num1 = int(input("Enter two numbers from which python will determine which one has more value.: "))
 num2 = int(input("Another number: "))
+print("The maximum of the two is: " + str(max(num1, num2)))
+
+
+#The same can be done with min function, the only difference being that it prints the minimum of the values
+print("The minimum of the two values is: " + str(min(num1, num2)))
+
+
+#The rounding function
+#As the name implies it rounds a given number or a variable
+print("Remember an earlier declared variable " + str(a) + "?\n")
+print("Rounding the variable off using round() func will give: " + str(round(a)) + ".\n")
+
+
+#Importing math functions in python
+from math import *
+#This will import every function from the math library.
+
+
+#floor function - Gives the closest int value for a given numeric value 
+print("The closest int value for the declared variable: " + str(a) + " is " + str(floor(a)) + ".\n")
+
+#ceil function - does the exact opposite of the floor() function
