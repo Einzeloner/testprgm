@@ -50,3 +50,16 @@ print("Changing the values of the second to fourth element of the list.\n")
 a[1:3] = ["Whatever second", "whatever third", "whatever fourth"]
 print("The new list is\n", a)
 
+#priting a certain element in the list.
+#coming back to this program after some days so typing shits out like these
+print("Remember the new list we just defined- " + str(a) + ".\n")
+print("You can print out a single element from the defined list using indexing.")
+print("The first element in that list is- " + str(a[0]) + ".\n")
+print("The last element in that list is- " + str(a[-1]) + ".\n")
+
+#selecting the potions of the list
+print("Printing the list value from 2nd position to the last-\n" + str(a[1:]) + " \n")
+print("Printing the values from 2nd to second last-\n" + str(a[1:-2]) + "\n")
+
+#printing from a range in between
+print("Printing the values from 3rd to 5th-\n" + str(a[2:4]) + "\n")
