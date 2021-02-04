@@ -63,3 +63,12 @@ print("Printing the values from 2nd to second last-\n" + str(a[1:-2]) + "\n")
 
 #printing from a range in between
 print("Printing the values from 3rd to 5th-\n" + str(a[2:4]) + "\n")
+
+
+#changing elements of a list again.
+print("I am gonna change the first element of the list now.\nThe first element- " + str(a[0]) + ".\n")
+a[0] = 'oneechan'
+print("Now the first element is- " + str(a[0]) + " UwU\n")
+
+#List functions
+print("Defining two lists: \n")
