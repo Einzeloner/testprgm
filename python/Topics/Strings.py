@@ -63,3 +63,7 @@ print("Anooo~ senpai... I will now replace 'e' in your string with 'C'.\nP... Pl
 print(z.replace("e", "C"))
 
 #This is pretty much everything to strings. Will add more as I know more.
+
+#Okay splitting is what I missed.
+split = str(input("Wanna enter a string to be split here? "))
+print("I will be splitting the list at 'e'\n" + str(split.split("e")) + " UwU.\n")

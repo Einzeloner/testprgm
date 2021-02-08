@@ -72,3 +72,11 @@ print("Now the first element is- " + str(a[0]) + " UwU\n")
 
 #List functions
 print("Defining two lists: \n")
+list1 = ['this', 'might']
+list2 = ['be', 'appended']
+print("The first list is " + str(list1) + " while the other being " + str(list2))
+
+
+#entending a list. Appends the two lists
+list1.extend(list2)
+print("The extended list is " + str(list1) + " UwU\n")
