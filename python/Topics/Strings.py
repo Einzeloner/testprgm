@@ -67,3 +67,5 @@ print(z.replace("e", "C"))
 #Okay splitting is what I missed.
 split = str(input("Wanna enter a string to be split here? "))
 print("I will be splitting the list at 'e'\n" + str(split.split("e")) + " UwU.\n")
+#split() function creates an array after splitting the string input.
+
