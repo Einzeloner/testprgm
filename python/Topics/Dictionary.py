@@ -9,3 +9,5 @@ x = {"FirstElement": "OneeChan", "SecondElement": "Hazukashii", "ThirdElement": 
 #Printing a dictionary element with the name defined and the index
 print(str(x["FirstElement"]) + "\nCannot print with indexing in dictionaries lol.\n") 
 
+#Finding out the length of this dictionary
+print("The length of this dictionary is " + str(len(x)))
