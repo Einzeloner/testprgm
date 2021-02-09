@@ -31,3 +31,21 @@ shotakun()
 
 
 #passing arguments in the defined function
+#defining a new/same function with some random variables as arguments
+def shotakunmod(inp1, inp2):
+    if inp1 == 'y':
+        print("Ara Ara~...")
+    elif inp1 == 'n':
+        print("Sad Onee san noises ......\n")
+    else:
+        print("Onee san is not happy about that you know... Hmph!")
+    if inp2 == 'y':
+        print("So imagine some funny response here plox ;-;")
+    elif inp2 == 'n':
+        print("So you said no u_u")
+    else:
+        print("So your response was neither 'y' or 'n' ")
+
+#Okay the new fucntion is done and now to use the function
+shotakunmod(input("Do you love Onee sans? "), input("Some other respone here: "))
+
