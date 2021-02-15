@@ -56,8 +56,11 @@ shotakunmod(input("Do you love Onee sans? "), input("Some other respone here: ")
 
 
 #defining a new function for default arguments
-def printoneesan(st, nd):
+def printoneesan(st = "ara", nd = "ara"):
     print("I like when Onee sans say " + str(st) + " and another " + str(nd))
 
     
-printoneesan('ara', 'ara')
+printoneesan()
+
+#with different values
+printoneesan("shota", "Kun")
