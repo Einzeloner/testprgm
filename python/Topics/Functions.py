@@ -49,3 +49,15 @@ def shotakunmod(inp1, inp2):
 #Okay the new fucntion is done and now to use the function
 shotakunmod(input("Do you love Onee sans? "), input("Some other respone here: "))
 
+
+
+
+#Default arguments - The input values will only be used if none of the ijnputs are given.
+
+
+#defining a new function for default arguments
+def printoneesan(st, nd):
+    print("I like when Onee sans say " + str(st) + " and another " + str(nd))
+
+    
+printoneesan('ara', 'ara')
