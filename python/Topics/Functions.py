@@ -79,6 +79,6 @@ def printwaifus(*entity):
 
 
 #now to smmon the function while I pass them my values
-printwaifus("Miku", "Tohsaka", "Touka", "Nagatoro", "Ichika")
+printwaifus("Miku", "Tohsaka", "Touka", "Nagatoro", "Ichika", "Asuka")
 #time to show how much of a degenerate I can be
 #print lmao

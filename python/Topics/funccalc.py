@@ -31,41 +31,35 @@ def mod(x, y):
 #the operators with the help of if else
 
 def op():
+#the operator input
     inp = input("Enter your operation here: [+, -, *, /, %, abs] \n")
-
+#the numbers be here
+    num1 = int(input("The first number : "))
+    num2 = int(input("The second number : "))
 #for addition
     if inp == '+':
-        num1 = int(input("The first number : "))
-        num2 = int(input("The second number : "))
         sumr = sum(num1, num2)
         print(sumr)
-
 #for subtraction
     elif inp == '-':
         subr = sub(num1, num2)
         print(subr)
-
 #for multiplication
     elif inp == '*':
         multr = mul(num1, num2)
         print(multr)
-
 #for division
     elif inp == '/':
         divr = div(num1, num2)
         print(divr)
-
 #for modulus
     elif inp == '%':
         modr = mod(num1, num2)
         print(modr)
-
 #for absolute value
     elif inp == 'abs':
         abssr = abss(num1, num2)
         print(abssr)
-
-#when nothing matches
     else:
         print("Operator error!")
 
