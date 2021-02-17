@@ -3,28 +3,28 @@
 
 # Sum function
 def sum(x, y):
-    sumr = return x + y
+    return x + y
 
 #sub function
 def sub(x, y):
-    subr = return x - y
+    return x - y
 
 #div func
 def div(x, y):
-    divr = return x / y
+    return x / y
 
 #multiplication func
 def mul(x, y):
-    multr = return x * y
+    return x * y
 
 # absolute value
 def abss(x, y):
-    abssr = return str(abs(x)) + " and " + str(abs(y))
+    return str(abs(x)) + " and " + str(abs(y))
 
 
 #modulus value
 def mod(x, y):
-    modr = return x % y
+    return x % y
 
 
 
@@ -32,24 +32,47 @@ def mod(x, y):
 
 def op():
     inp = input("Enter your operation here: [+, -, *, /, %, abs] \n")
+
+#for addition
     if inp == '+':
-        num1 = input("The first number : ")
-        num2 = input("The second number : ")
-        def sum(num1, num2)
+        num1 = int(input("The first number : "))
+        num2 = int(input("The second number : "))
+        sumr = sum(num1, num2)
         print(sumr)
+
+#for subtraction
     elif inp == '-':
-        sub(num1, num2)
+        subr = sub(num1, num2)
         print(subr)
+
+#for multiplication
     elif inp == '*':
-        mul(num1, num2)
+        multr = mul(num1, num2)
         print(multr)
+
+#for division
     elif inp == '/':
-        div(num1, num2)
+        divr = div(num1, num2)
         print(divr)
+
+#for modulus
     elif inp == '%':
+        modr = mod(num1, num2)
+        print(modr)
 
+#for absolute value
+    elif inp == 'abs':
+        abssr = abss(num1, num2)
+        print(abssr)
 
+#when nothing matches
+    else:
+        print("Operator error!")
 
+#end for now
 
-
+#I legit forgot calling the function lmao
+op()
+#......... Uh... it took the input as strings u_u
+#okay it works
  
