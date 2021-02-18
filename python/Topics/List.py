@@ -83,5 +83,14 @@ print("The extended list is " + str(list1) + " UwU\n")
 
 
 #can append random items into the list as well
-list1.append("not")
+list1.append("or not")
 print("The new list1 is " + str(list1) + " UwU\n")
+
+
+#inserting list items at defined indexes. Uses the insert command
+print("The current list is \n" + str(list1))
+list1.insert(2, "not")
+Print("Adding not to the third element of the list")
+print(list1)
+
+
