@@ -80,3 +80,8 @@ print("The first list is " + str(list1) + " while the other being " + str(list2)
 #entending a list. Appends the two lists
 list1.extend(list2)
 print("The extended list is " + str(list1) + " UwU\n")
+
+
+#can append random items into the list as well
+list1.append("not")
+print("The new list1 is " + str(list1) + " UwU\n")
