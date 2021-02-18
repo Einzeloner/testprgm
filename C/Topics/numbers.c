@@ -18,7 +18,11 @@ float main() {
 	/*now for some more functions*/
 	printf("the power function for a number - %d\n\n", pow(num1, 2));
 	printf("the sqrt function for a number - %f\n\n", sqrt(num1));
-
+	
+	/*ceil rounds the number to one up */
+	printf("The ceil round off of the variable %f is %f\n\n ", num1f, ceil(num1f));
+	/* floor rounds the number to one down */
+	printf("The floor round off of the variable %f is %f\n\n ", num1f, floor(num1f));
 
 
 
