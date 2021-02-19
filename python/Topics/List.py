@@ -90,7 +90,25 @@ print("The new list1 is " + str(list1) + " UwU\n")
 #inserting list items at defined indexes. Uses the insert command
 print("The current list is \n" + str(list1))
 list1.insert(2, "not")
-Print("Adding not to the third element of the list")
+print("Adding not to the third element of the list")
 print(list1)
 
 
+#removing and clearing of lists
+
+#can remove an element from the list by specifying it's value to the remove() func.
+print("\n\nThis is the current luist as of now-\n" + str(list1))
+print("\nRemoving the second element( might ) from the list using the remove() func")
+list1.remove("might")
+print("\n\nThe new list is:\n\n" + str(list1))
+
+
+#clearing a list
+nlist = ["one", "two", "three", "four", "five"]
+print("Defining a new list:\n" + str(nlist))
+nlist.clear()
+print("clearing this list using the clear() function\n" + str(nlist))
+
+
+
+#popping something out of the list
