@@ -97,7 +97,7 @@ print(list1)
 #removing and clearing of lists
 
 #can remove an element from the list by specifying it's value to the remove() func.
-print("\n\nThis is the current luist as of now-\n" + str(list1))
+print("\n\nThis is the current list as of now-\n" + str(list1))
 print("\nRemoving the second element( might ) from the list using the remove() func")
 list1.remove("might")
 print("\n\nThe new list is:\n\n" + str(list1))
@@ -121,3 +121,4 @@ print("I am popping the bitch out:\n" + str(nlist))
 #printing the index of an element 
 print("Now I know that I have 'Nagatoro' in my new list that I defined")
 print("The index of Nagatoro is " + str(nlist.index("Nagatoro")))
+
