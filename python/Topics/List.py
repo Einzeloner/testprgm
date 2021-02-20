@@ -112,3 +112,12 @@ print("clearing this list using the clear() function\n" + str(nlist))
 
 
 #popping something out of the list
+nlist = ["Asuka", "Nagatoro", "Miku", "Ichika", "mami"]
+print("\nDefining a new list:\n" + str(nlist))
+nlist.pop()
+print("I am popping the bitch out:\n" + str(nlist))
+#basically what pop does is it removes the last element of the list
+
+#printing the index of an element 
+print("Now I know that I have 'Nagatoro' in my new list that I defined")
+print("The index of Nagatoro is " + str(nlist.index("Nagatoro")))
