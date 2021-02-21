@@ -131,3 +131,12 @@ print("\n\nThe sorted version of this list will be\n" + str(sorted(slist)) )
 #reversing the order of the list with reversed() function
 print("remember the previous list\n" + str(slist) + "?\n")
 print("Reversing the list using reversed() function\n", reversed(slist))
+
+
+#counting the number of an element in the list
+print("The number of 'Nagatoro' named elements in the list is\n" + str(nlist.count("Nagatoro")))
+
+
+#copying a list
+slist2 = slist.copy
+print("I copied the list and the enw list is\n" + str(slist2))
