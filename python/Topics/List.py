@@ -122,3 +122,7 @@ print("I am popping the bitch out:\n" + str(nlist))
 print("Now I know that I have 'Nagatoro' in my new list that I defined")
 print("The index of Nagatoro is " + str(nlist.index("Nagatoro")))
 
+#sorting a list using sort() function
+slist = [34, 7896, 29346, 1231, 123, 9808,]
+print("A new defined list is\n" + str(slist) ) 
+print("\n\nThe sorted version of this list will be\n" + str(slist.sort()))
