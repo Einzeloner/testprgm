@@ -62,7 +62,7 @@ def printoneesan(st = "ara", nd = "ara"):
     
 printoneesan()
 
-#with different values
+# with different values
 printoneesan("shota", "Kun")
 
 
@@ -70,8 +70,8 @@ printoneesan("shota", "Kun")
 printoneesan(nd = "ara", st = "UwU")
 
 
-#infinite arguments
-#for a long list or something idk
+# infinite arguments
+# for a long list or something idk
 def printwaifus(*entity):
     for waifus in entity:
         print("My waifus include: " + str(waifus) + "\n")
@@ -80,5 +80,5 @@ def printwaifus(*entity):
 
 #now to smmon the function while I pass them my values
 printwaifus("Miku", "Tohsaka", "Touka", "Nagatoro", "Ichika", "Asuka")
-#time to show how much of a degenerate I can be
-#print lmao
+# time to show how much of a degenerate I can be
+# print lmao
