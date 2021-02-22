@@ -10,3 +10,5 @@ randvar = mult(int(input("Enter a number to do some random calculations with: ")
 
 # Now printing the random calc variable with the help of return
 print(randvar)
+
+#Return ends a function.
