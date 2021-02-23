@@ -30,4 +30,8 @@ def somefunc():
 
 # Now call that function and ask the user if the user wants to print the function
     
-
+uinp = input("Would you like to print your desired input?[y/n] ")
+if uinp == 'y':
+    somefunc()
+else:
+    print("program exiting now")
