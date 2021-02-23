@@ -14,6 +14,7 @@ def somefunc():
         e5 = input("Fifth element: ")
         # list1 variable will be the list of all elements
         list1 = [e1, e2, e3, e4, e5]
+        print(list1)
     # if the response of the user is 't'. elif stands for else if
     elif x == 't':
         print("So you want to print a tuple.(5 elements)")
@@ -23,7 +24,8 @@ def somefunc():
         t4 = input("First element: ")
         t5 = input("First element: ")
         # tup1 is the tuple of all elements
-        tup1 = (t1, t2, t3, t4, t5)
+        tnum = (t1, t2, t3, t4, t5)
+        print(list2)
     # Else if nothing matches just end the function
     else:
         print("Please enter a valid response baka! >_<")
