@@ -34,3 +34,12 @@ elif inp1 == 'str':
 else:
     print("Please enter a valid input")
 
+
+
+# Now to think of something to put in this or condition
+
+# just what can be in or. It needs to satisfy either of the one conditions
+# why can't I think lmao
+
+# Since I am unable to think I will do something half assed i think
+
