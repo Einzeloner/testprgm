@@ -43,3 +43,14 @@ else:
 
 # Since I am unable to think I will do something half assed i think
 
+y = input("Do you like onee sans? ") # ah yes the can't think of something option
+
+# Let's satisfy two responses in one using or
+if y == 'y' or y == 'Y' or y == 'yes' or y == 'Yes':
+    inp2 = input("Ara~ Do you want to be with one? ")
+    if y == 'y' or y == 'Y' or y == 'yes' or y == 'Yes':
+        on = input("Can you name one Onee san? ")
+        print("Aahh %s is a good choice UwU" %on)
+
+else:
+    print("Okay program exiting right now")
