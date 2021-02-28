@@ -42,18 +42,18 @@ def astolfo():
             print("Baka I will exit now")
 
 
-    # I seriously don't know what to do
-    if has_pp == 'yes' or has_pp == 'y' or has_pp == 'Y' or has_pp == 'Yes':
-        print("Ahh! looks like you have something in your pants.\n")
-        # now the if else condition for pp succ
-        if has_pp == 'y' and succ == 'y'\
-            or has_pp == 'yes' and succ == 'yes'\
-                or has_pp == 'y' and succ == 'yes':
+    # Yeah the if else inlaid loop doesn't work sO I am trying again
+    time.sleep(3)
+    print("Okayy.. I am back.")
+    print("So.. you're uh.. ")
+    if succ == 'y' and is_male == 'y':
+        print("Gayyyyyy!!!!!!!!")
 
-                print("gay!!!")
-
+    elif succ == 'y' and not is_male == 'y':
+        print("Partially gay")
+    
     else:
-        print("program exiting now")
+        print("Exiting")
 
 
 astolfo()
