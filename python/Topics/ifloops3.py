@@ -49,7 +49,7 @@ def astolfo():
     if succ == 'y' and is_male == 'y':
         print("Gayyyyyy!!!!!!!!")
 
-    elif succ == 'y' and not is_male == 'y':
+    elif succ == 'y' and not(is_male == 'y'):
         print("Partially gay")
     
     else:
