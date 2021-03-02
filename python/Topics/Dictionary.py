@@ -11,3 +11,26 @@ print(str(x["FirstElement"]) + "\nCannot print with indexing in dictionaries lol
 
 #Finding out the length of this dictionary
 print("The length of this dictionary is " + str(len(x)))
+
+
+# Month conversion type of deal
+mcinput = input("Enter the first three letters of your month: ")
+
+# The dictionary for the month conversion
+md = {
+    "Jan" : "January",
+    "Feb" : "February",
+    "Mar" : "March",
+    "Apr" : "April",
+    "May" : "May",
+    "Jun" : "June",
+    "Jul" : "July",
+    "Aug" : "August",
+    "Sep" : "September",
+    "Oct" : "October",
+    "Nov" : "November",
+    "Dec" : "December"
+}
+
+# Now to print the fucking months
+print(md.get(mcinput))
