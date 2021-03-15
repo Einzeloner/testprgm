@@ -24,3 +24,13 @@ for somerandbs in range(num):
 # well the first run gave me an error saying int is not iterable lmao
 # oh okay, for printing the numberline you have to use  the range function.
 # yeah okay this run finally works .
+
+
+# same can be done with numbers in a certain range 
+rlower = int(input("Lower limit of the range: "))
+rupper = int(input("Upper limit of the range: "))
+
+for absolutebullfuck in range(rlower, rupper):
+    print(absolutebullfuck)
+
+
