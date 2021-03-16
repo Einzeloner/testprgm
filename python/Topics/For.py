@@ -1,4 +1,4 @@
-# A sample program for a fior loop in python
+# A sample program for a for loop in python
 
 lstring = input("Enter a string to be printed vertically: ")
 # The  for loop is used to print letters one by one
