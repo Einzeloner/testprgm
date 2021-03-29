@@ -72,3 +72,11 @@ print("I will be splitting the list at 'e'\n" + str(split.split("e")) + " UwU.\n
 # r can be added in the front of the string to make it seem as raw char for the interpreter
 print(r'whatever lmao \/\/\/\/\/\/\/\/\/\/\/\/\/\ ')
 # raw string 'r' only works for slashes so don't put something like quotations in it lol
+
+
+# you can even multiply thwe number of times that you want a string to be repeated
+s1 = "fuck "
+s2 = "Shit! "
+print("Varibales declared are " + s1 + " and " + s2)
+#now to print them multiple times using multiplication
+print(3 * s1, s2)
