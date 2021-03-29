@@ -69,3 +69,6 @@ split = str(input("Wanna enter a string to be split here? "))
 print("I will be splitting the list at 'e'\n" + str(split.split("e")) + " UwU.\n")
 #split() function creates an array after splitting the string input.
 
+# r can be added in the front of the string to make it seem as raw char for the interpreter
+print(r'whatever lmao \/\/\/\/\/\/\/\/\/\/\/\/\/\ ')
+# raw string 'r' only works for slashes so don't put something like quotations in it lol
