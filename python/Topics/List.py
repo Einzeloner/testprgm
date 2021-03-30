@@ -139,4 +139,4 @@ print("The number of 'Nagatoro' named elements in the list is\n" + str(nlist.cou
 
 #copying a list
 slist2 = slist.copy
-print("I copied the list and the enw list is\n" + str(slist2))
+print("I copied the list and the new list is\n" + str(slist2))
