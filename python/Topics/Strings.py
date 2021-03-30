@@ -80,3 +80,4 @@ s2 = "Shit! "
 print("Varibales declared are " + s1 + " and " + s2)
 #now to print them multiple times using multiplication
 print(3 * s1, s2)
+
