@@ -47,6 +47,6 @@
     scanf("%f", &rate);
      
     // Calculating and answers
-    printf("The Simple interest is %0.2f", principal * rate * years);
+    printf("The Simple interest is %0.2f\n", (principal * rate * years)/100);
     return 0;
  }
