@@ -18,7 +18,7 @@ int main(){
 
 	printf("I really really love %s\n", likings);
 	printf("Whenever they say %s I melt UwU\n", fuck);
-	printf("And a floating point number would be %0.2f\n", numdec);
+	printf("And a floating point number would be %0.2f\n", numdec); // adding 0.2f because I only want 2 digits after the decimal
 	printf("The number of onee sans that I like is %d\n", oneesansnumber);
 }
 
