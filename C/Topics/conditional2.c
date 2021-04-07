@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-void main(){
+float  main(){
     float  math, phy, chem, english, misc;
    // 5 variables for their marks in the respective sub
 
@@ -23,9 +23,8 @@ void main(){
     printf("Enter marks in Misc: ");
     scanf("%f", &misc);
 
-   // Now for the result display with the help of switch statement 
+   // Now for the result display with the help of if else statement 
    float res =( (math + phy + english + chem + misc)/500) * 100 
    // full marks being 100 in one subj. This will be used to calculate the percentage 
-    
+  , printf("%0.2f", res);
 }
-
