@@ -21,16 +21,12 @@ void main(){
 
 
     // now for the chekcing below 33% part assuming full marks to be 100
-    if (maths <= 33 || phy <= 33 || chem <= 33){
-        printf("You have scored less than 33 percent in one or more subs.\n Thus you are fail. \n");
+    if (maths <= 33 || phy <= 33 || chem <= 33 || resc <= 40){
+        printf("You have scored less than 33 or less than 40 percent in one or more subs.\n Thus you are fail. \n");
         printf("Your result is: %d\n", resc);
         
     }
     
-    else if ( resc <= 40){
-        printf("You scored less  than 40 percent in total so you fail.\n");
-        printf("Your result is: %d\n", resc);
-    }
     else{
         printf("You scored %d percent\n", resc);
     }
