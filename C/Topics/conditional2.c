@@ -1,30 +1,41 @@
-//  using else if and else if clauses with one liners switch cases and conditional operators
-
-// A program to find the grade of the sutdent  based on their marks
-
+// program to find out the grade of the student 
 #include <stdio.h>
 
-float  main(){
-    float  math, phy, chem, english, misc;
-   // 5 variables for their marks in the respective sub
+void main(){
+    // declaring variable for the three subs
+    int maths, phy, chem;
 
-    printf("Enter marks in Maths: ");
-    scanf("%f", &math);
+    printf("Enter marks for Maths: ");
+    scanf("%d", &maths);
     
-    printf("Enter marks in Physics: ");
-    scanf("%f", &phy);
-   
-    printf("Enter marks in Chemistry: ");
-    scanf("%f", &chem);
-  
-    printf("Enter marks in English: ");
-    scanf("%f", &english);
- 
-    printf("Enter marks in Misc: ");
-    scanf("%f", &misc);
+    printf("Enter marks for Physics: ");
+    scanf("%d", &phy);
+    
+    printf("Enter marks for  Chemistry: ");
+    scanf("%d", &chem);
 
-   // Now for the result display with the help of if else statement 
-   float res =( (math + phy + english + chem + misc)/500) * 100 
-   // full marks being 100 in one subj. This will be used to calculate the percentage 
-  , printf("%0.2f", res);
+    
+    // a result variable 
+    int resc = (maths + chem + chem) *100 / 300 ;
+    // printf("Your result is: %d\n", resc);
+
+
+    // now for the chekcing below 33% part assuming full marks to be 100
+    if (maths <= 33 || phy <= 33 || chem <= 33){
+        printf("You have scored less than 33 percent in one or more subs.\n Thus you are fail. \n");
+        printf("Your result is: %d\n", resc);
+        
+    }
+    
+    else if ( resc <= 40){
+        printf("You scored less  than 40 percent in total so you fail.\n");
+        printf("Your result is: %d\n", resc);
+    }
+    else{
+        printf("You scored %d percent\n", resc);
+    }
+
+
 }
+
+
