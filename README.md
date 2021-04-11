@@ -3,7 +3,7 @@
 A repo for testing out and storing random programs and commits. Not useful to anyone.
 
 
-### Programs of specific languages are in their respective folders.
+#### Programs of specific languages are in their respective folders.
 
  C - Has programs of C
 
