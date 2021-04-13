@@ -1,7 +1,8 @@
 # Python 
 A repository for python programs.
 
-## It's organised and  divided in 3 sections.
+
+### It's organised and  divided in 3 sections.
 
  Topics - Has python program topic wise
 
