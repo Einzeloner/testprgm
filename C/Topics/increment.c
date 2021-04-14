@@ -5,5 +5,12 @@
 
 // printing a pattern of starts I guess
 void main(){
-    
+  int numinput;
+  int i = 0;
+
+  while(i < numinput){
+      printf("*");
+      i++;
+      
+  }   
 }
