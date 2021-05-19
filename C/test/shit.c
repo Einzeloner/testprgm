@@ -2,10 +2,10 @@
 
 # include <stdio.h>
 
-int  main() {
-    int a1, a2, a3, a4, a5; 
-    printf( " Enter a 5 digit int number: " );
-    scanf("%d%d%d%d%d", &a1, &a2, &a3, &a4, &a5);
+int main(){
 
-    printf("Sum: %d", a1 + a2 + a3 +a4 + a5);
+char fuck; 
+fuck = getchar();
+
+putchar(fuck);
 }
