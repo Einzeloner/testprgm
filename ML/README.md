@@ -1,1 +1,2 @@
-A directory for random Machine learning programs
+**A directory for random Machine learning programs**
+

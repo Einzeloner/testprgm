@@ -10,7 +10,6 @@ table = quandl.get('WIKI/GOOGL')
 print(table.head())
 
 # making the list 
-
 table = table[['Adj. Open', 'Adj. High', 'Adj. Close', 'Adj. Volume', 'Adj. Low']]
 
 table['HL-pct'] = (table['Adj. High'] - table['Adj. Close']) / table['Adj. Close'] * 100.0
