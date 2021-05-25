@@ -19,3 +19,6 @@ table = table[['Adj. Close', 'HL-pct', 'PCT-change', 'Adj. Volume']]
 
 # Just with the useful things 
 print(table.head())
+
+# now the tail of the stock price data
+print(table.tail())
