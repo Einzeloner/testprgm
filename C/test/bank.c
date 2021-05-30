@@ -1,28 +1,38 @@
-// bank notes classification using modulus ig idk
+// bank notes classification idk 
 
 #include <stdio.h>
 
-int main(){
+int main(){ // Talking to me is like talking to a brick
 	
 	// vars
-	int notes;
+	int amt, total;
 	
 	printf("Enter the amount of moni: ");
-	scanf("%d", &notes);
+	scanf("%d", &amt);
 
 	//500 notes
-	printf("The number of 500 notes that you will have is: %d\n", notes / 500);
-
-	//100 notes
-	printf("The number of 100 notes that you will have is: %d\n", notes / 100);
-
+	total = (int)amt / 500;
+	printf(" The 500 rs notes are: %d\n", total);
 	
+	amt = amt - (total * 500);
+	
+	//100 notes
+	total = (int)amt / 100;
+	printf(" The 100 rs notes are: %d\n", total);
+	
+	amt = amt - (total * 100);
+	
+		
 	//50 notes
-	printf("The number of 50 notes that you will have is: %d\n", notes / 50);
+	total = (int)amt / 50;
+	printf(" The 50 rs notes are: %d\n", total);
+	
+	amt = amt - (total * 50);
 
 	//10 notes
-	printf("The number of 10 notes that you will have is: %d\n", notes / 10);
-
-
+	total = (int)amt / 10;
+	printf(" The 10 rs notes are: %d\n", total);
+	
+	amt = amt - (total * 10);
 }
 
